@@ -1,12 +1,15 @@
 import React from 'react';
+
+// MUI Imports
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 
-import networkingIcon from '../icons/main.png';
+// Image Imports
+import networkingIcon from '../images/main.png';
 
 
-export default function HeaderNavBar(){
+export default function NavBar(){
     return <AppBar position="static" sx={{ height:'6rem', backgroundColor: '#FFE5CC'}}>
                 <Toolbar sx={{
                     display: 'flex',
