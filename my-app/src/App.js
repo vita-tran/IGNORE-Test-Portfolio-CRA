@@ -1,11 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import * as React from 'react';
+import linkedinIcon from './images/linkedin.png';
+import githubIcon from './images/github.png';
+import slackIcon from './images/slack.png';
+import gmailIcon from './images/gmail.png';
+import xIcon from './images/x.png';
+import holopinIcon from './images/holopin.png';
+import handwaveIcon from './images/wave.png';
+import helloWorld from './images/august.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
